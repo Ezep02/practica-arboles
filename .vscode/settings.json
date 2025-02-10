@@ -2,6 +2,7 @@
     "files.associations": {
         "stdio.h": "c",
         "practicafinal.h": "c",
-        "type_traits": "c"
+        "type_traits": "c",
+        "arbol-avl.h": "c"
     }
 }

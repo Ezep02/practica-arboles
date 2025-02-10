@@ -1,5 +1,5 @@
-#include "nodo.h"
-#include "arbol-avl.h"
+#include "../headers/Nodo.h"
+#include "../headers/arbol-avl.h"
 
 static const int TAMANIO_MAXIMO = 1000;
 

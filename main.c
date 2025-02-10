@@ -4,6 +4,9 @@
 #include "./final/punto2.c"
 #include "./final/punto3.c"
 
+#include "./final/final-libre.c"
+
+
 // NodoArbol InsertarNodo(NodoArbol raiz, int dato);
 // void MostrarArbol(NodoArbol nodo);
 
@@ -18,6 +21,7 @@ int main()
     //IniciarPunto2();
     //IniciarPunto3();
     
+    IniciarFinalLibre();
     return 0;
 }
 

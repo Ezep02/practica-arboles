@@ -80,11 +80,12 @@ void Iniciar2B(){
 //TODO = Agregar muestra y carga a funciones reutilziables
 NodoArbol CargarArbol(NodoArbol nodo, int clave)
 {
+    
+    NodoArbol nuevo_nodo;
 
     if (nodo == NULL)
     {
-        NodoArbol nuevo_nodo = n_crear(te_crear(clave));
-        return nuevo_nodo;
+        nuevo_nodo = n_crear(te_crear(clave));
     }
     else
     {
@@ -98,7 +99,7 @@ NodoArbol CargarArbol(NodoArbol nodo, int clave)
             nodo->hd = CargarArbol(nodo->hd, clave);
         }
     }
-    return nodo;
+    return nuevo_nodo;
 }
 
 void MostrarArbol(NodoArbol nodo){
@@ -109,7 +110,6 @@ void MostrarArbol(NodoArbol nodo){
         MostrarArbol(nodo->hd);
     }
 }
-
 
 
 // 2A
