@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "practicafinal.h": "c",
+        "type_traits": "c"
+    }
+}

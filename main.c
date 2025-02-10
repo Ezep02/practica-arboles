@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-#include "./TP5/punto_2.c"
+// #include "./TP5/punto_2.c"
+#include "./final/punto2.c"
+#include "./final/punto3.c"
 
 // NodoArbol InsertarNodo(NodoArbol raiz, int dato);
 // void MostrarArbol(NodoArbol nodo);
@@ -10,8 +12,12 @@ int main()
     //Iniciar2A();
     //Iniciar2B();
 
-    Iniciar2C();
+    // Iniciar2C();
 
+    // ejercicios practica para final
+    //IniciarPunto2();
+    //IniciarPunto3();
+    
     return 0;
 }
 
@@ -47,4 +53,4 @@ int main()
 //         printf("%d ", nodo->datos->key);
 //         MostrarArbol(nodo->hd);
 //     }
-// }
+// }>

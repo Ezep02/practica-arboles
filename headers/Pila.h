@@ -1,5 +1,5 @@
 #ifndef PILA_H
-#define PILA_h
+#define PILA_H
 
 #include "./TipoElemento.h"
 

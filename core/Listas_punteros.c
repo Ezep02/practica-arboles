@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-static const int TAMANIO_MAXIMO = 100;
+static const int LISTAS_TAMANIO_MAXIMO = 100;
 
 struct Nodo {
     TipoElemento datos;
@@ -39,7 +39,7 @@ bool l_es_vacia(Lista lista) {
 
 
 bool l_es_llena(Lista lista) {
-    return (lista->cantidad == TAMANIO_MAXIMO);
+    return (lista->cantidad == LISTAS_TAMANIO_MAXIMO);
 }
 
 
